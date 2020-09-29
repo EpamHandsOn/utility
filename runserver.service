@@ -1,0 +1,10 @@
+[Unit]
+Description=Run server
+
+[Service]
+User=ubuntu
+Group=ubuntu
+ExecStart=/home/ubuntu/HandsOn/django/notejam/runserver.sh
+
+[Install]
+WantedBy=default.target
